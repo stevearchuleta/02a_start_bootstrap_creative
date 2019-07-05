@@ -1,68 +1,80 @@
-# [Start Bootstrap - Creative](https://startbootstrap.com/template-overviews/creative/)
+HW Assignment #2a (week 2)
 
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+Overview
 
-## Preview
+In this assignment, you'll create two different portfolios. The first will be building your portfolio layout using the Bootstrap CSS Framework. The second will be enhancing the portfolio you made last unit with a mobile-responsive layout.
 
-[![Creative Preview](https://startbootstrap.com/assets/img/screenshots/themes/creative.png)](https://blackrockdigital.github.io/startbootstrap-creative/)
+Before You Begin
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-creative/)**
+If you opted to do the wireframe (easier) assignment for last homework or if you struggled with the portfolio design, ask a member of the instructional staff to provide you with the solution files. This will provide a starting point for the current assignment. You've learned a ton of material: HTML, CSS, GitHub, GitHub Pages, and Bootstrap. If you feel like you're falling behind, there's no need to panic. You'll have plenty of time to digest and master this material. We're diving into JavaScript next unit, and HTML/CSS will start receiving less focus. Still, you'll find that a basic knowledge of HTML/CSS will help you understand JavaScript, especially when we use it to manipulate web pages.
 
-## Status
+Submission on BCS
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-creative/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-creative.svg)](https://www.npmjs.com/package/startbootstrap-creative)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-creative.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-creative)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-creative/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-creative)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-creative/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-creative?type=dev)
+Please submit both the deployed Github.io link to your homework AND the link to the Github Repository!
 
-## Download and Installation
+Instructions
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/creative/)
-* Install via npm: `npm i startbootstrap-creative`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-creative.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-creative)
+Create two new GitHub repositories and name them Bootstrap-Portfolio and Responsive-Portfolio. Clone these repositories to your computer.
 
-## Usage
+Assignment One Instructions (Bootstrap)
 
-### Basic Usage
+Inside your Bootstrap-Portfolio repo, create index.html, portfolio.html and contact.html. Using Bootstrap, recreate your portfolio site with the following items:
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+A navbar
 
-### Advanced Usage
+A responsive layout (remember the grid, rows and columns are your friends)
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+eg. On xs and sm screens, content should take up the entire screen. On md and larger screens, you should have some margins on the left and right side of the screen. Check out various sites on your mobile device versus your computer to see this in action!
 
-#### Gulp Tasks
+Responsive images
 
-- `gulp` the default task that builds everything
-- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
+BONUS Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (Hint: Check out the Bootstrap documentation)
 
-You must have npm installed globally in order to use this build environment.
+Your Bootstrap solution should minimize use of media queries. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
-## Bugs and Issues
+Assignment Two Instructions - (No Bootstrap)
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
+Copy the contents of Basic-Portfolio (your first homework solution) and paste the mentioned files into Responsive-Portfolio. Note: Be sure not to include any dot files (e.g. .git, .gitignore) from the Basic-Portfolio repo. If you chose the Wireframe exercise for your first homework assignment, talk to a TA, who will provide you with a template for your portfolio. Inside your Responsive-Portfolio folder, find your styles.css file. You will write your media queries at the bottom of styles.css. Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px.
 
-## About
+You use 980px because you never want any of the content to be cut off. Since the desktop layout is about 960px wide, you want the media queries to kick in before your content gets cut off. 768px is about the width of a tablet and 640px is about the width of a phone in landscape.
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+Make the layout match the following screenshots:
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+index.html: 980px, 768px, 640px portfolio.html: 980px, 768px, 640px contact.html: 980px, 768px, 640px
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Make the position of the header static (the default positioning) when the screen is 640px wide. The header design takes up a lot of room; you don't want it to stick to the top of a small screen and leave no room for the rest of your site. Be sure to include the viewport tag in all your HTML files, otherwise your media-queries won't function as expected on mobile devices. (Hint: You won't need to use exact pixels for anything other than the container) Protip: Use the Chrome extensions Window Resizer and Browser Width to see the browser dimensions in Chrome. Deploy your new portfolio (now with media queries!) to GitHub Pages.
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+Submitting Your Work on BootCampSpot
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Submit the GitHub links to your portfolio repositories on GitHub. Submit the link to your (GitHub Pages) deployed site in the same input field.
 
-## Copyright and License
+BONUS
 
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license.
+Incorporate CSS animations in your portfolio. More info here.
+
+Reminder: Submission on BCS
+
+Please submit both the deployed Github.io link to your homework AND the link to the Github Repository!
+
+Minimum Requirements
+
+Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.
+
+One More Thing
+
+If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
+
+Good Luck!
+
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About.
